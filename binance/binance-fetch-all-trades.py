@@ -12,7 +12,7 @@ import ccxt  # noqa: E402
 exchange = ccxt.binance()
 
 markets = exchange.load_markets()
-symbol = 'ETH/BTC'
+symbol = 'BTC/USDT'
 market = exchange.market(symbol)
 one_hour = 3600 * 1000
 since = exchange.parse8601('2025-09-21T00:00:00')
